@@ -7,9 +7,8 @@
 
 body {
     background: #000;
-    color: #fff;
-    background-color: #8786b5;
-    
+    color: #e2c287;
+    background-color: #8786b5;    
     background-color: #0c0c0c;
     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='105' viewBox='0 0 80 105'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='death-star' fill='%23540606' fill-opacity='0.1'%3E%3Cpath d='M20 10a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm15 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zM20 75a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zm30-65a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V10zm0 65a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V75zM35 10a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zM5 45a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10zm60 35a5 5 0 0 1 10 0v50a5 5 0 0 1-10 0V45zm0-35a5 5 0 0 1 10 0v20a5 5 0 0 1-10 0V10z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E"); 
     font-size: 16px;
@@ -18,7 +17,7 @@ body {
 }
 
 a {
-    color: #fff;
+    color: #e2c287;
     text-decoration: none;
 }
 
@@ -92,7 +91,7 @@ hr{
     width: 100%;
     background: red;
     height: 250px;
-    background: url(img/showcase5.png) no-repeat center center/cover;
+    background: url(img/showcase6.png) no-repeat center center/cover;
     padding: 50px;
     margin-bottom: 20px;
     display: flex;
@@ -108,7 +107,7 @@ hr{
     font-weight: bold;
     padding: 10px 20px;
     background: #262626;
-    color:#fff;
+    color: #e2c287;
     font-size: 15px;
     border: 1px solid #fff;
     margin: 10px 0;
@@ -146,7 +145,7 @@ hr{
 
 .news-card a {
     padding: 10px 0;
-    color: #f2f2f2;
+    color: #e2c287;
     text-transform: uppercase;
     display: inline-block;
     font-weight: bold;
@@ -168,7 +167,7 @@ hr{
 
 .card-banner-two {
     width: 100%;
-    height: 150px;
+    height: 200px;
     background: url(img/banner-tech.png) no-repeat center center/cover;   
     margin-bottom: 40px;
 }
@@ -184,21 +183,11 @@ hr{
     margin: 10px 0 20px 0;
 }
 
-/* cards others */
-
-/* cards-banner-two */
-.cards-banner-two{
+.cards-banner-three{
     width: 100%;
-    height: 350px;
-    background: url(img/image-five.jpg) no-repeat center center/cover;  
-
-}
-
-
-.cards-banner-two .content {
-    width: 50%;
-    padding: 100px 0 0 30px;
-    color: #fff;
+    height: 650px;
+    background: url(img/image-five.png) no-repeat center center/cover;   
+    margin-bottom: 40px;
 }
 
 /* social */
@@ -337,6 +326,7 @@ hr{
         left: 0;
         background: #2f3640;
         height: 100%;
+        width: 150px;
         padding: 30px;
         opacity: .9;
         transform: translateX(-400px);   
@@ -352,7 +342,10 @@ hr{
         font-size: 14px;
     }
 
-
+    .showcase{
+        height: auto;
+        width: 370px;
+    }
 
     .nav-main ul.nav-menu-right{
         margin-right: 40px;
@@ -367,6 +360,13 @@ hr{
     .card-banner-one .content,
     .cards-banner-two .content{
         width: 80%;
+    }
+
+    .cards-banner-three{
+        width: 100%;
+        height: 150px;
+        background: url(img/image-five.png) no-repeat center center/cover;   
+        margin-bottom: 40px;
     }
 
     .footer-links .footer-container {
@@ -385,10 +385,22 @@ hr{
         height: 250px 0;
     }
 
+    .showcase{
+        height: auto;
+        width: 370px;
+    }    
+
     .card-banner-one .content,
     .cards-banner-two .content{
         width: 100%;
         padding: 60px 20px;
+    }
+
+    .cards-banner-three{
+        width: 100%;
+        height: 150px;
+        background: url(img/image-five.png) no-repeat center center/cover;   
+        margin-bottom: 40px;
     }
 
     .footer-links .footer-container {
